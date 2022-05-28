@@ -28,5 +28,11 @@ namespace WebService01
         {
             return "Hola " + nombre + " , bienvenido a los web service";
         }
+
+        [WebMethod]
+        public int Suma(int n1, int n2)
+        {
+            return (n1+n2);
+        }
     }
 }
